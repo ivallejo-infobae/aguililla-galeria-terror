@@ -55,6 +55,19 @@ body {
   max-width: 768px;
   margin: 0 auto;
   display: flex;
+  flex-wrap: wrap;
+}
+
+.wrap-title {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  color: $gray-component;
+  font-size: rem(14px);
+  @include media-query(md) {
+    font-size: rem(16px);
+  }
 }
 
 .wrap-slider {
